@@ -1,0 +1,54 @@
+header{
+    background-color: snow;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img{
+    width: 200px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.tarjeta{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 1px 1px;
+}
+
+.tarjeta img{
+    width: 100%;
+}
+
+.tarjeta h1{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.tarjeta h2{
+    color: rgb(255, 135, 155);
+}
+
+.contenido{
+    padding: 10px;
+}
+
+
+
