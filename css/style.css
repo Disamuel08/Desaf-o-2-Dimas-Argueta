@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+body{
+    font-family: "Lexend Deca", sans-serif;
+}
+
 header{
     background-color: snow;
 }
@@ -32,6 +39,11 @@ nav a:hover{
     box-shadow: 0px 1px 1px;
 }
 
+.tarjeta:hover{
+    background-color: snow;
+    transform: scale(1.05);
+}
+
 .tarjeta img{
     width: 100%;
 }
@@ -43,12 +55,69 @@ nav a:hover{
 }
 
 .tarjeta h2{
-    color: rgb(255, 135, 155);
+    color: #898685;
 }
 
 .contenido{
     padding: 10px;
 }
 
+.f1 {
+    display: flex;
+    justify-content: center;
+}
 
+.f2 {
+    display: flex;
+    justify-content: center;
+}
+
+.producto{
+    margin-top: 50px;
+    background-color: #dddcdb;
+}
+
+
+.imagen{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.imagen img{
+    width: 300px;
+}
+
+.orden_1{
+    display: flex;
+   justify-content: center;
+}
+
+.orden_2{
+    display: flex;
+   justify-content: center;
+}
+
+
+.boton{
+    background-color: snow;
+    border: none;
+    color: black;
+    padding: 8px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 900px;
+}
+
+footer {
+    background-color: snow;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.titulo{
+    text-align: center;
+}
 
